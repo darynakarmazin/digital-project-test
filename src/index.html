@@ -125,19 +125,49 @@
             <li><img src="./images/projects-img-4.jpg" alt="" /></li>
             <li><img src="./images/projects-img-5.jpg" alt="" /></li>
           </ul>
-          <a href=""
-            >Всі Проекти<img src="./images/icon/arrow-right.svg" alt=""
+          <a href="#"
+            >Всі Проекти<img src="./images/icon/ico-shape.svg" alt="arrow"
           /></a>
         </div>
       </section>
-      <section>
+      <section class="contact-us-section">
         <div class="container">
           <h2>Зв'язатися з нами</h2>
-          <form action=""></form>
-          <img src="./images/contact-us-img.jpg" alt="" />
-          <button type="submit">
-            Відправити<img src="./images/icon/arrow-right.svg" alt="" />
-          </button>
+          <div class="wrapper">
+            <form autocomplete="on" novalidate>
+              <div class="booking-row">
+                <label class="booking-label">
+                  <input
+                    class="booking-input"
+                    type="text"
+                    name="name"
+                    placeholder="Name*"
+                  />
+                </label>
+                <label class="booking-label">
+                  <p class="booking-text"></p>
+                  <input
+                    class="booking-input"
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone*"
+                  />
+                </label>
+              </div>
+              <label class="booking-label">
+                <textarea
+                  class="booking-input booking-comment"
+                  name="message"
+                  placeholder="Message"
+                ></textarea>
+                <button type="submit">
+                  Відправити<img src="./images/icon/arrow-right.svg" alt="" />
+                </button>
+              </label>
+            </form>
+            <img class="contact-photo"
+            src="./images/contact-us-img.jpg" alt="man with phone img" />
+          </div>
         </div>
       </section>
     </main>

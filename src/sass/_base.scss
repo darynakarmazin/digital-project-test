@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-style: inherit;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+// /* MOBILE */
+// @media screen and (min-width: 320px) {
+//   .container {
+//     width: 320px;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }
+
+// /* TABLET */
+// @media screen and (min-width: 768px) {
+//   .container {
+//     width: 768px;
+//     padding-left: 32px;
+//     padding-right: 32px;
+//   }
+// }
+
+// /* DESKTOP */
+// @media screen and (min-width: 1440px) {
+// .container {
+//   width: 1440px;
+//   padding-left: 135px;
+//   padding-right: 135px;
+// }
+// }
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}

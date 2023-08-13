@@ -1,0 +1,37 @@
+header {
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-logo {
+  margin-right: 330px;
+  padding: 30px 0;
+  img {
+    width: 70px;
+    height: 43.714px;
+  }
+}
+
+.header-list {
+  display: flex;
+  gap: 60px;
+  a {
+    color: var(--gray-1, #333);
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding: 2px 0;
+
+    &:hover,
+    &:focus {
+      border-top: 1px solid var(--gray-1, #333);
+      border-bottom: 1px solid var(--gray-1, #333);
+    }
+  }
+}

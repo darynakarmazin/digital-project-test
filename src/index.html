@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Project</title>
     <link href="./images/favicon/favicon.ico" rel="icon" type="image/x-icon" />
+    <link
+      href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
@@ -12,21 +16,31 @@
     <header>
       <div class="container">
         <nav>
-          <a href="#"
-            ><img src="./images/icon/logo-digital-project.svg" alt=""
+          <a href="/" class="header-logo"
+            ><img
+              src="./images/icon/logo-digital-project.svg"
+              alt="company logo"
           /></a>
           <ul class="header-list">
-            <li class="header-list-item"><a href="">Головна</a></li>
-            <li class="header-list-item"><a href="">Галерея</a></li>
-            <li class="header-list-item"><a href="">Проекти</a></li>
-            <li class="header-list-item"><a href="">Сертифікати</a></li>
-            <li class="header-list-item"><a href="">Контакти</a></li>
+            <li class="header-list-item"><a href="/">Головна</a></li>
+            <li class="header-list-item">
+              <a href="#gallery-section">Галерея</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#projects-section">Проекти</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#certifications-section">Сертифікати</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#contacts-section">Контакти</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="gallery-section">
         <div class="container">
           <h1>PROJECT<br /><span>HOME</span></h1>
           <button><img src="./images/icon/arrow-left.svg" alt="" /></button
@@ -81,7 +95,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="projects-section" id="projects-section">
         <div class="container">
           <h2>Наші проекти</h2>
           <ul>
@@ -125,7 +139,7 @@
               <li class="header-list-item"><a href="">Контакти</a></li>
             </ul>
           </div>
-          <div>
+          <div id="contacts-section">
             <h3>Контакти</h3>
             <ul>
               <li></li>

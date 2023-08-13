@@ -35,3 +35,202 @@ header {
     }
   }
 }
+
+.hero-section {
+  margin-bottom: 120px;
+  & .container {
+    display: flex;
+    .wrapper {
+      flex-grow: 1;
+      h1 {
+        color: var(--gray-4, #bdbdbd);
+        font-family: 'TT Hoves Pro Trial', sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 64px; /* 100% */
+        margin-top: 336px;
+        margin-bottom: 90px;
+        span {
+          color: var(--gray-1, #333);
+          font-weight: 700;
+        }
+      }
+      div {
+        display: flex;
+        gap: 22px;
+        margin-bottom: 94px;
+        button {
+          width: 53px;
+          height: 53px;
+          border: 1px solid #f2f2f2;
+          background: #fff;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &:hover,
+          &:focus {
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+      .hero-counter {
+        color: var(--gray-4, #bdbdbd);
+        font-family: 'TT Hoves Pro Trial', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 100% */
+        display: flex;
+        gap: 26px;
+      }
+    }
+    .hero-banner-wrapper {
+      position: relative;
+    }
+    .hero-banner {
+      width: 770px;
+      height: 829px;
+    }
+    .hero-arrow-link {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 222px;
+      height: 71px;
+      background: #fff;
+      color: var(--gray-1, #333);
+      font-family: 'TT Hoves Pro Trial', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px; /* 100% */
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover,
+      &:focus {
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+      }
+
+      img {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+.about-section {
+  margin-bottom: 120px;
+  .container {
+    background: var(--1, #fbfbfb);
+    padding: 30px 70px 0 100px;
+    display: flex;
+    gap: 30px;
+    .about-photolist {
+      width: 570px;
+      display: flex;
+      flex-wrap: wrap;
+
+      li:first-child {
+        margin-right: 30px;
+        margin-bottom: 30px;
+      }
+      li:nth-child(2n) {
+        margin-top: 30px;
+      }
+      li:nth-child(3n) {
+        margin-top: -80px;
+      }
+    }
+  }
+  .about-information {
+    width: 430px;
+    h2 {
+      color: var(--gray-4, #bdbdbd);
+      font-family: 'TT Hoves Pro Trial', sans-serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 64px; /* 100% */
+      margin-bottom: 20px;
+    }
+    p {
+      color: #000;
+      font-family: 'TT Hoves Pro Trial', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 25px; /* 156.25% */
+      margin-bottom: 20px;
+    }
+    a {
+      width: 222px;
+      height: 71px;
+      background: #fff;
+      color: var(--gray-1, #333);
+      font-family: 'TT Hoves Pro Trial', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px; /* 100% */
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover,
+      &:focus {
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}
+
+.task-section {
+  margin-bottom: 120px;
+  .container {
+    h2 {
+      color: var(--gray-4, #bdbdbd);
+      font-family: 'TT Hoves Pro Trial', sans-serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 64px; /* 100% */
+      margin-bottom: 60px;
+    }
+    ul {
+      display: flex;
+      gap: 200px;
+      li {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        span {
+          color: var(--gray-6, #f2f2f2);
+          font-family: 'SF Pro Display', sans-serif;
+          font-size: 200px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+        }
+        p {
+          color: var(--gray-1, #333);
+          font-family: 'TT Hoves Pro Trial', sans-serif;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 36px; /* 163.636% */
+        }
+      }
+    }
+  }
+}

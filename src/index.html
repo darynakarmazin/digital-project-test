@@ -9,6 +9,11 @@
       href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
@@ -42,23 +47,38 @@
     <main>
       <section class="hero-section" id="gallery-section">
         <div class="container">
-          <h1>PROJECT<br /><span>HOME</span></h1>
-          <button><img src="./images/icon/arrow-left.svg" alt="" /></button
-          ><button><img src="./images/icon/arrow-right.svg" alt="" /></button>
-          <img src="./images/hero-photo-1.jpg" alt="" />
-          <a href=""
-            >Поглянути<img src="./images/icon/arrow-right.svg" alt=""
-          /></a>
+          <div class="wrapper">
+            <h1>PROJECT<br /><span>HOME</span></h1>
+            <div>
+              <button><img src="./images/icon/arrow-left.svg" alt="" /></button
+              ><button>
+                <img src="./images/icon/arrow-right.svg" alt="" />
+              </button>
+            </div>
+            <div class="hero-counter">
+              <span>01</span><span>/</span><span>02</span>
+            </div>
+          </div>
+          <div class="hero-banner-wrapper">
+            <img class="hero-banner" src="./images/hero-photo-1.jpg" alt="" />
+            <a class="hero-arrow-link" href="#"
+              >Поглянути<img src="./images/icon/arrow-right.svg" alt=""
+            /></a>
+          </div>
         </div>
       </section>
       <section class="about-section">
         <div class="container">
-          <ul>
-            <li><img src="./images/about-img-1.jpg" alt="" /></li>
-            <li><img src="./images/about-img-2.jpg" alt="" /></li>
-            <li><img src="./images/about-img-3.jpg" alt="" /></li>
+          <ul class="about-photolist">
+            <li><img src="./images/about-img-1.jpg" alt="about-img-1" /></li>
+            <li>
+              <img src="./images/about-img-3.jpg" alt="images/about-img-3" />
+            </li>
+            <li>
+              <img src="./images/about-img-2.jpg" alt="images/about-img-2" />
+            </li>
           </ul>
-          <div>
+          <div class="about-information">
             <h2>Про компанію</h2>
             <p>
               «Про нас» — це сторінка на вашому сайті, яка розповідає вашим
@@ -68,13 +88,13 @@
               мета, а також, можливо, щось про ваші майбутні цілі. «Про нас» —
               це можливість розповісти переконливу історію про ваш бізнес».
             </p>
-            <a href=""
-              >Читати<img src="./images/icon/arrow-right.svg" alt=""
+            <a href="#"
+              >Читати<img src="./images/icon/arrow-right.svg" alt="arrow-right"
             /></a>
           </div>
         </div>
       </section>
-      <section>
+      <section class="task-section">
         <div class="container">
           <h2>Основні завдання</h2>
           <ul>

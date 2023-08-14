@@ -45,35 +45,6 @@ a {
   overflow: hidden;
 }
 
-// /* MOBILE */
-// @media screen and (min-width: 320px) {
-//   .container {
-//     width: 320px;
-//     padding-left: 20px;
-//     padding-right: 20px;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-// }
-
-// /* TABLET */
-// @media screen and (min-width: 768px) {
-//   .container {
-//     width: 768px;
-//     padding-left: 32px;
-//     padding-right: 32px;
-//   }
-// }
-
-// /* DESKTOP */
-// @media screen and (min-width: 1440px) {
-// .container {
-//   width: 1440px;
-//   padding-left: 135px;
-//   padding-right: 135px;
-// }
-// }
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -81,3 +52,13 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+// @media (max-width: 576px) {
+//   .container {
+//     max-width: 324px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }

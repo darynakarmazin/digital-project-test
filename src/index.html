@@ -265,33 +265,51 @@
                     class="booking-input"
                     type="text"
                     name="name"
-                    placeholder="Name*"
+                    placeholder="Ім'я"
                   />
                 </label>
                 <label class="booking-label">
-                  <p class="booking-text"></p>
                   <input
                     class="booking-input"
                     type="tel"
                     name="phone"
-                    placeholder="Phone*"
+                    placeholder="Номер телефону*"
                   />
                 </label>
+                <label class="booking-label">
+                  <input
+                    class="booking-input"
+                    type="text"
+                    name="email"
+                    placeholder="E-mail*"
+                  />
+                </label>
+                <label class="booking-label">
+                  <input
+                    class="booking-input"
+                    type="text"
+                    name="choose"
+                    placeholder="Товар/послуга, що цікавить"
+                  />
+                </label>
+                <label class="booking-label">
+                  <textarea
+                    class="booking-input booking-comment"
+                    name="message"
+                    placeholder="Повідомлення*"
+                  ></textarea>
+                </label>
               </div>
-              <label class="booking-label">
-                <textarea
-                  class="booking-input booking-comment"
-                  name="message"
-                  placeholder="Message"
-                ></textarea>
-                <button type="submit">
-                  Відправити<svg width="24" height="24">
-                    <use
-                      href="./images/icon/svg-sprite.svg#icon-arrow-right"
-                    ></use>
-                  </svg>
-                </button>
-              </label>
+              <p>
+                Надсилаючи заявку Ви погоджуєтесь з політикою конфіденційності
+              </p>
+              <button type="submit">
+                Відправити<svg width="24" height="24">
+                  <use
+                    href="./images/icon/svg-sprite.svg#icon-arrow-right"
+                  ></use>
+                </svg>
+              </button>
             </form>
             <img
               class="contact-photo"

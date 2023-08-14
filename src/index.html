@@ -51,13 +51,13 @@
           <div class="wrapper">
             <h1>PROJECT<br /><span>HOME</span></h1>
             <div>
-              <button>
+              <button class="slider-prev">
                 <svg width="24" height="24">
                   <use
                     href="./images/icon/svg-sprite.svg#icon-arrow-left"
                   ></use>
                 </svg></button
-              ><button>
+              ><button class="slider-next">
                 <svg width="24" height="24">
                   <use
                     href="./images/icon/svg-sprite.svg#icon-arrow-right"
@@ -66,11 +66,22 @@
               </button>
             </div>
             <div class="hero-counter">
-              <span>01</span><span>/</span><span>02</span>
+              <span class="slider-count">01</span><span>/</span><span>02</span>
             </div>
           </div>
-          <div class="hero-banner-wrapper" data-aos="fade-left">
-            <img class="hero-banner" src="./images/hero-photo-1.jpg" alt="" />
+          <div class="slider">
+            <div class="hero-banner-wrapper slider-line" data-aos="fade-left">
+              <img
+                class="hero-banner"
+                src="./images/hero-photo-1.jpg"
+                alt="hero-photo"
+              />
+              <img
+                class="hero-banner"
+                src="./images/hero-photo-2.jpg"
+                alt="hero-photo"
+              />
+            </div>
             <a class="hero-arrow-link" href="#"
               >Поглянути
               <svg width="24" height="24">

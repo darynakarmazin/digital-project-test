@@ -71,16 +71,34 @@
           </div>
           <div class="slider">
             <div class="hero-banner-wrapper slider-line" data-aos="fade-left">
-              <img
-                class="hero-banner"
-                src="./images/hero-photo-1.jpg"
-                alt="hero-photo"
-              />
-              <img
-                class="hero-banner"
-                src="./images/hero-photo-2.jpg"
-                alt="hero-photo"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/hero-photo-1.jpg    1x,
+                    ./images/hero-photo-1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="hero-banner"
+                  src="./images/hero-photo-1.jpg"
+                  alt="hero-photo"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="
+                    ./images/hero-photo-2.jpg    1x,
+                    ./images/hero-photo-2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="hero-banner"
+                  src="./images/hero-photo-2.jpg"
+                  alt="hero-photo"
+                />
+              </picture>
             </div>
             <a class="hero-arrow-link" href="#"
               >Поглянути
@@ -95,25 +113,52 @@
         <div class="container">
           <ul class="about-photolist">
             <li>
-              <img
-                src="./images/about-img-1.jpg"
-                alt="about-img-1"
-                data-aos="zoom-in-right"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-1.jpg    1x,
+                    ./images/about-img-1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/about-img-1.jpg"
+                  alt="about-img-1"
+                  data-aos="zoom-in-right"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                src="./images/about-img-3.jpg"
-                alt="images/about-img-3"
-                data-aos="zoom-in-right"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-3.jpg    1x,
+                    ./images/about-img-3@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/about-img-3.jpg"
+                  alt="images/about-img-3"
+                  data-aos="zoom-in-right"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                src="./images/about-img-2.jpg"
-                alt="images/about-img-2"
-                data-aos="zoom-in-right"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-2.jpg    1x,
+                    ./images/about-img-2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/about-img-2.jpg"
+                  alt="images/about-img-2"
+                  data-aos="zoom-in-right"
+                />
+              </picture>
             </li>
           </ul>
           <div class="about-information">
